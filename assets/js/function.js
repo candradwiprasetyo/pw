@@ -50,7 +50,7 @@ function validasi_email(string){
 					
 					i_name = formx.i_name.value;
 					i_email = formx.i_email.value;
-					i_subject = formx.i_subject.value;
+					//i_subject = formx.i_subject.value;
 					i_message = formx.i_message.value;
 
 					var count_error = 0;
@@ -68,16 +68,17 @@ function validasi_email(string){
 						count_error = count_error + 1;
 						message_error += "Please use valid email address<br>";
 					}
-					if(i_subject == ""){
+					/*if(i_subject == ""){
 						count_error = count_error + 1;
 						message_error += "Subject required<br>";
 					}
+					*/
 					if(i_message == ""){
 						count_error = count_error + 1;
 						message_error += "Message required<br>";
 					}
 
-
+					var dataString = 'name=' + i_name + '&email=' + i_email + '&message=' + i_message;
 
 					if(count_error > 0){
 
@@ -92,20 +93,31 @@ function validasi_email(string){
 					
 					}else{
 						
-						/*
+						
 						swal({
-						title: "Thanks for join !",
-						text: "Any updates  will be shared to you",
+						title: "Thanks !",
+						text: "I will immediately reply your message",
 						imageUrl: 'assets/images/candramelon.png',
 						showCancelButton: false,
 						confirmButtonColor: '#DD6B55',
 						confirmButtonText: 'OK'
 						},
 						function(){
-							window.location = 'index/proses.php?act=1&email=' + i_email;
+							$.ajax({
+									type: "POST",
+									url: "contact",
+									data: dataString,
+									cache: false,
+									success: function(html) {
+										 $('#form_contact')[0].reset();
+									}
+							});
+						
 						});
 						return false;
-						*/
+						
+
+
 						
 					}
 			}

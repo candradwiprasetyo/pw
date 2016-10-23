@@ -1,13 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Gochi+Hand);
 .tooltip {
-	
 	z-index: 999;
 	width: 2.2em;
 	height: 2.2em;
 	cursor: pointer;
 	opacity: 1;
-	margin-left:462px;
-	margin-top: 62px; 
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 62px;
+	position: relative;
 }
 
 /* Trigger item */
@@ -41,8 +42,8 @@
 }
 
 .tooltip:first-child {
-	top: 10px;
-	left: 10px;
+	top: 55px;
+	left: -85px;
 }
 
 .tooltip:nth-child(2) {

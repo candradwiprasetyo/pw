@@ -13,15 +13,13 @@
         <div class="col-md-12">
         <div class="col-md-5 col-md-offset-1">
           <div class="footer-form" style="padding-top:40px;">
-           <form action="" enctype="multipart/form-data" method="POST" name="form_contact"  onsubmit="return submit_contact()">
-              <div class="col-md-6 wow animated fadeInUp" data-wow-delay="0.2s">
+           <form action="" enctype="multipart/form-data" method="POST" name="form_contact"  onsubmit="return submit_contact()" id="form_contact">
+              <div class="col-md-12 wow animated fadeInUp" data-wow-delay="0.2s">
                 <input type="text" class="form-control" placeholder="Name" name="i_name">
               </div>
-              <div class="col-md-6  wow animated fadeInUp" data-wow-delay="0.2s">
-                <input type="text" class="form-control" placeholder="Email" name="i_email">
-              </div>
+              
               <div class="col-md-12  wow animated fadeInUp" data-wow-delay="0.4s">
-                <input type="text" class="form-control" placeholder="Subject" name="i_subject">
+                <input type="text" class="form-control" placeholder="Email" name="i_email">
               </div>
               <div class="col-md-12 wow animated fadeInUp" data-wow-delay="0.6s">
                 <textarea rows="3" name="i_message" class="form-control" placeholder="Your Message Here" style="max-width:100%; min-width:100%; min-height:100px;"></textarea>
