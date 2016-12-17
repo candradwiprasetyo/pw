@@ -61,6 +61,10 @@
               </div>
             </div>
             </div>
+
+            <?php
+              include 'galon.php';
+            ?>
           
         
          

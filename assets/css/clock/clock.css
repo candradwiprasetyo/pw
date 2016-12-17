@@ -40,3 +40,9 @@
         	background: url(images/hourhand.png);
         	z-index: 1;
            	}
+
+@media (max-width: 1200px){
+    #clock_frame{
+        margin-left: -140px;
+    }
+}

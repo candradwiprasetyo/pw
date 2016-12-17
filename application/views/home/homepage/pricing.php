@@ -8,8 +8,15 @@
 </script>
 <!-- pricing section BEGIN  -->
     <section class="pricing" id="pricing">
+
+
+        
       <div class="background_pricing">
+
+       
+
       <div class="container">
+
         <br>
         <div class="title text-center wow animated fadeInDown"><h1>Pricing <strong>Table</strong></h1></div>
         
@@ -17,6 +24,7 @@
        
 
         <div class="col-md-4 col-md-offset-4">
+
           <div class="pricing-table active wow animated fadeInUp" data-wow-delay="0.1s">
             <div class="header">
               <h3>RECOMMENDED</h3></div>

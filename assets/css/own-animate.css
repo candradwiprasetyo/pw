@@ -156,24 +156,7 @@
 }
 
 
-@media (max-width: 991px){
-	.tree-group1{
-		display: none;
-	}
 
-	.tree-group2{
-		display: none;
-	}
-
-	.car{
-		display: none;
-	}
-
-	.car2{
-		display: none;
-	}
-
-}
 
 
 /*----------------------------car animation--------------------------*/
@@ -232,3 +215,40 @@
     100%  {right:600px; top:300px;}
 }
 
+/*------------------galon------------------------*/
+
+.galon{
+	width: 98px;
+	height: 100px;
+	margin-top: 300px;
+	position: relative;
+	left: 1000px;
+}
+
+@media (max-width: 1200px){
+	.galon{
+		left: 900px;
+	}
+}
+
+@media (max-width: 991px){
+	.galon{
+		display: none;
+	}
+	.tree-group1{
+		display: none;
+	}
+
+	.tree-group2{
+		display: none;
+	}
+
+	.car{
+		display: none;
+	}
+
+	.car2{
+		display: none;
+	}
+
+}

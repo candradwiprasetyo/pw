@@ -820,6 +820,7 @@ a:hover {
   width: 100%;
   z-index: 1;
   background:url(../images/bg-noise.png) #f5f2c7;
+  position: relative;
 }
 .pricing .background_pricing{
   min-height: 768px;
@@ -829,7 +830,6 @@ a:hover {
   display: table;
   z-index: 1;
   background:url(../images/kitchen.png) no-repeat top;
-  
 }
 .pricing .title h1 {
   margin-bottom: 30px;
