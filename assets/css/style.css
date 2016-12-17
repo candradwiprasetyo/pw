@@ -189,6 +189,7 @@ a:hover {
   vertical-align: middle;
   text-align: center;
   color: #ffffff;
+  overflow: hidden;
   
  
 }
@@ -1505,8 +1506,8 @@ a:hover {
 }
 
 .cloud:nth-child(1){ top: auto; top: 100px; opacity: 0.85; 
--webkit-animation: clouds 100s infinite; 
-animation: clouds 100s infinite; 
+-webkit-animation: clouds 20s infinite; 
+animation: clouds 20s infinite; 
 }
 .cloud:nth-child(2){ right: auto; left: 800px; top:100px; opacity: 0.75;
 -webkit-animation: clouds 40s infinite; 

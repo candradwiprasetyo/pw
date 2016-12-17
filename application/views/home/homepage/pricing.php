@@ -5,7 +5,7 @@
               
             });
         });
-    </script>
+</script>
 <!-- pricing section BEGIN  -->
     <section class="pricing" id="pricing">
       <div class="background_pricing">

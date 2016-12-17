@@ -1,0 +1,234 @@
+@-webkit-keyframes breeze{
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	50% {
+		-webkit-transform: rotate(5deg);
+		transform: rotate(5deg);
+	}
+	100% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+}
+
+@-moz-keyframes breeze{
+	0% {
+		-moz-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	50% {
+		-moz-transform: rotate(5deg);
+		transform: rotate(5deg);
+	}
+	100% {
+		-moz-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+}
+
+@-webkit-keyframes breeze2{
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	50% {
+		-webkit-transform: rotate(10deg);
+		transform: rotate(10deg);
+	}
+	100% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+}
+
+@-moz-keyframes breeze2{
+	0% {
+		-moz-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	50% {
+		-moz-transform: rotate(10deg);
+		transform: rotate(10deg);
+	}
+	100% {
+		-moz-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+}
+
+.svg-tree0{
+	position: relative;
+	left: -250px;
+	top: -50px;
+}
+
+.svg-tree{
+	position: relative;
+	left: -330px;
+	top: -5px;
+}
+
+.svg-tree2{
+	position: relative;
+	left: -620px;
+	top: -45px;
+}
+
+.svg-tree3{
+	position: relative;
+	left: 580px;
+	top: -255px;
+}
+
+.svg-tree4{
+	position: relative;
+	left: 450px;
+	top: -225px;
+}
+
+.svg-tree5{
+	position: relative;
+	left: 400px;
+	top: -275px;
+}
+
+.svg-tree6{
+	position: relative;
+	left: -700px;
+	top: -70px;
+}
+
+.svg-root{
+	position: relative;
+	left: -755px;
+	top: 0px;
+}
+
+.tree-group1{
+	margin-top: 120px;
+	position: relative;
+}
+
+.tree-group2{
+	position: relative;
+}
+
+
+.svg-root img{
+	width: 100%;
+}
+.tree{
+	-webkit-transform-origin: 50% 100%;
+	-webkit-animation: breeze 5s ease-out infinite;
+	-moz-transform-origin: 50% bottom;
+	transform-origin: 50% 100%;
+	animation: breeze 5s ease-out infinite;
+	transform-origin: 50% bottom;
+}
+
+.tree2{
+	-webkit-transform-origin: 50% 100%;
+	-webkit-animation: breeze2 5s ease-out infinite;
+	-moz-transform-origin: 50% bottom;
+	transform-origin: 50% 100%;
+	animation: breeze2 5s ease-out infinite;
+	transform-origin: 50% bottom;
+}
+
+.tree3{
+	-webkit-transform-origin: 50% 100%;
+	-webkit-animation: breeze2 10s ease-out infinite;
+	-moz-transform-origin: 50% bottom;
+	transform-origin: 50% 100%;
+	animation: breeze2 10s ease-out infinite;
+	transform-origin: 50% bottom;
+}
+
+.tree4{
+	-webkit-transform-origin: 50% 100%;
+	-webkit-animation: breeze2 3s ease-out infinite;
+	-moz-transform-origin: 50% bottom;
+	transform-origin: 50% 100%;
+	animation: breeze2 3s ease-out infinite;
+	transform-origin: 50% bottom;
+}
+
+
+@media (max-width: 991px){
+	.tree-group1{
+		display: none;
+	}
+
+	.tree-group2{
+		display: none;
+	}
+
+	.car{
+		display: none;
+	}
+
+	.car2{
+		display: none;
+	}
+
+}
+
+
+/*----------------------------car animation--------------------------*/
+
+.car {
+	margin-top: -200px;
+  width: 300px;
+  height: 200px;
+  background: url("../images/car.png");
+  position: relative;
+  -webkit-animation-name: car;
+  -webkit-animation-duration: 10s; 
+  -webkit-animation-iteration-count: infinite; 
+  animation-name: car;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  transform: rotate(15deg);
+  animation-delay: -10s;
+}
+
+@-webkit-keyframes car {
+    0%   {left:-500px; top:0px;}
+    100%  {left:700px; top:350px;}
+}
+
+@keyframes car {
+    0%   {left:-500px; top:0px;}
+    100%  {left:700px; top:350px;}
+}
+
+
+.car2 {
+	margin-top: -200px;
+  width: 300px;
+  height: 200px;
+  float: right;
+  background: url("../images/car2.png");
+  position: relative;
+  -webkit-animation-name: car2;
+  -webkit-animation-duration: 6s; 
+  -webkit-animation-iteration-count: infinite; 
+  animation-name: car2;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  transform: rotate(-15deg);
+  animation-delay: 0s;
+}
+
+@-webkit-keyframes car2 {
+    0%   {right:-500px; top:0px;}
+    100%  {right:600px; top:300px;}
+}
+
+@keyframes car2 {
+    0%   {right:-500px; top:0px;}
+    100%  {right:600px; top:300px;}
+}
+

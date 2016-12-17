@@ -37,9 +37,9 @@
             <div class="description wow animated fadeInUp" style="margin-bottom:-20px;">
           <p>
            Candra D Prasetyo <br/>
-Gayungsari Timur X No 1 <br/>
+<!-- Gayungsari Timur X No 1 <br/> -->
 Surabaya, East Java, Indonesia <br/>
-(0838) 31059355 <br/>
+(0858) 5777 7414 <br/>
 candradwiprasetyo@gmail.com 
           </p>
           
@@ -49,7 +49,7 @@ candradwiprasetyo@gmail.com
 					
 					<li><a target="_blank" href="https://web.facebook.com/candradwprasetyo" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
 					<li><a target="_blank" href="https://plus.google.com/u/0/109776926653599939952" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
-					<li><a target="_blank" href="https://github.com/candradwiprasetyo" class="icon circle fa-github"><span class="label">Github</span></a></li>
+					<li><a target="_blank" href="https://id.linkedin.com/in/candra-dwi-prasetyo-69688b118" class="icon circle fa-github"><span class="label">Github</span></a></li>
 				</ul>
             </div>
           </div><!--/.footer-form -->

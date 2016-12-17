@@ -41,9 +41,9 @@
            <br />
             <br />
            <span style="color:#fff;">
-          <span style="font-size:24px;" >Hi, My Name is <b>Candra D Prasetyo</b></span><br><br><p>I am a PROGRAMMER
+          <span style="font-size:24px;" >Hi, My Name is <b>Candra Dwi Prasetyo</b></span><br><br><p>I am a FRONT END DEVELOPER
 					based in Surabaya, East Java, Indonesia.
-					My skills are web design, web programming and web application. I've designed websites for small businesses, company profile, personal website, nonprofits, more.
+					My skills are web design, web programming and web application. I've designed websites for small businesses, company profile, personal website, more.
            </p>
          </span>
            </div>	
@@ -51,7 +51,7 @@
            <div class="buttons">
               <div class="form-group">
                 <div class="col-md-6">
-                  <a href="<?= base_url() ?>assets/files/my_resume.pdf" target="_blank" class="def-btn about_button wow animated fadeInLeft"><strong>Download My CV</strong></a>
+                  <a href="<?= base_url() ?>assets/files/ResumeCandraDwiPrasetyo.pdf" target="_blank" class="def-btn about_button wow animated fadeInLeft"><strong>Download My CV</strong></a>
                 </div>
               </div>
                  <div class="form-group">

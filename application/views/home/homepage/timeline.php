@@ -58,14 +58,30 @@
     
                     <div class="cd-timeline-block">
                      <div class="cd-timeline-img cd-default">
-                        <img src="<?= base_url() ?>assets/images/freelancer.png" alt="Picture">
+                        <img src="<?= base_url() ?>assets/images/work.png" alt="Picture">
                       </div> <!-- cd-timeline-img -->
                 
                       <div class="cd-timeline-content">
-                        <h2>Be Freelancer</h2>
-                        <p>In 2014, I decided to become a freelancer. 
-                          I hope I can help people make good website according to their needs</p>
-                        <span class="cd-date">Jan 01, 2014</span>
+                        <h2>Work @ Webtocrat Motion </h2>
+                        <p>In 2015, I worked as IT Developer in Webtocrat Motion. 
+Webtocrat Motion is a company engaged in website creation services, focus on technology research and branding strategy for a product
+
+                        </p>
+                        <span class="cd-date">Jun 01, 2015</span>
+                      </div> <!-- cd-timeline-content -->
+                    </div> <!-- cd-timeline-block -->
+
+                     <div class="cd-timeline-block">
+                     <div class="cd-timeline-img cd-default">
+                        <img src="<?= base_url() ?>assets/images/work.png" alt="Picture">
+                      </div> <!-- cd-timeline-img -->
+                
+                      <div class="cd-timeline-content">
+                        <h2>Work @ Dragon Capital Center Jakarta </h2>
+                        <p>This is my first experience joining a startup company. I am working as a front end developer. I create website for "The first Virtual Social Media in the World CIAYO". https://www.ciayo.com/
+
+                        </p>
+                        <span class="cd-date">Apr 03, 2016</span>
                       </div> <!-- cd-timeline-content -->
                     </div> <!-- cd-timeline-block -->
     

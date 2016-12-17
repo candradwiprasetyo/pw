@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Melon Development">
-    <link rel="icon" href="assets/images/favicon.png">
-    <title>Candra D Prasetyo</title>
+    <link rel="icon" href="assets/images/logo_small.ico">
+    <title>Candra Dwi Prasetyo</title>
 
       <!-- Bootstrap -->
     <link href="<?= base_url() ?>assets/css/bootstrap.css" rel="stylesheet">
@@ -14,7 +14,7 @@
     <link href="<?= base_url() ?>assets/css/font-awesome.css" rel="stylesheet">
   
     <!-- timeline -->
-  <link rel="stylesheet" href="<?= base_url() ?>assets/css/timeline.css"> 
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/timeline.css"> 
     
     <!-- Animate.css -->
     <link href="<?= base_url() ?>assets/css/animate.css" rel="stylesheet">
@@ -30,11 +30,14 @@
     <link href="<?= base_url() ?>assets/css/style.css" rel="stylesheet">
     
     <!-- Portofolio -->
-  <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/portofolio/demo.css" />
-  <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/portofolio/component.css" />
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/portofolio/demo.css" />
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/portofolio/component.css" />
     
     <!-- link -->
     <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/link.css" />
+
+    <!-- own animate -->
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/css/own-animate.css" />
     
      <!-- sweet alert -->
     <script src="<?= base_url() ?>assets/js/alert/sweet-alert.js"></script>

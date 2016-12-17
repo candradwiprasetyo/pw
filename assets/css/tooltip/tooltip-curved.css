@@ -7,7 +7,7 @@
 	opacity: 1;
 	margin-left:auto;
 	margin-right: auto;
-	margin-top: 62px;
+	margin-top: -62px;
 	position: relative;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .tooltip:first-child {
-	top: 55px;
+	top: -188px;
 	left: -85px;
 }
 

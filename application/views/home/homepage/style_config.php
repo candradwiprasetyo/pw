@@ -405,7 +405,7 @@ a:hover {
 				}
 
 			.icon.circle.fa-github {
-				background: url(<?= base_url() ?>assets/images/github.png) no-repeat center #fff;
+				background: url(<?= base_url() ?>assets/images/linkedin.png) no-repeat center #fff;
 				zoom: 1;
 				filter: alpha(opacity=75);
 				opacity: 0.7;
@@ -413,7 +413,7 @@ a:hover {
 			}
 
 				.icon.circle.fa-github:hover {
-					background: url(<?= base_url() ?>assets/images/github.png) no-repeat center #fff;
+					background: url(<?= base_url() ?>assets/images/linkedin.png) no-repeat center #fff;
 					zoom: 1;
 					filter: alpha(opacity=100);
 					opacity: 1;
