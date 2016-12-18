@@ -1135,7 +1135,7 @@ a:hover {
   
 }
 
-@media all and (max-width : 1000px) {
+@media all and (max-width : 991px) {
   .contact .background_contact{
     background: none;
   }
@@ -1160,6 +1160,10 @@ a:hover {
     min-height:100%;
     height: 100%;
     padding-bottom: 40px;
+  }
+
+  .portfolio .background_portfolio{
+    background: none;
   }
 
   #clock_frame {

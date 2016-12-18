@@ -1,14 +1,12 @@
- <!-- about section BEGIN -->
-    <section class="service" id="service">
-       <div class="background_service">
-                   
-<div class="container">
-
-            <div class="row">
-              <div class="col-md-6 text wow animated fadeInLeft" >
-              <div class="item_frame">
-                <section>
-                 <div class="text">
+<!-- about section BEGIN -->
+<section class="service" id="service">
+  <div class="background_service">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text wow animated fadeInLeft" >
+          <div class="item_frame">
+            <section>
+              <div class="text">
                 <div class="title"><h4><b>Custom Website</b> Development Services</h4></div>
                 <div class="description">
                   <p>
@@ -16,31 +14,24 @@
                   </p>
                 </div>
               </div>
-                  
-                </section>
-              </div>
-              </div>
+            </section>
+          </div>
+        </div>
                           
-              <div class="col-md-6">
-             
-
-               <div class="row">
-
-              <div class="col-md-6 text wow animated fadeInDown">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6 text wow animated fadeInDown">
               <div class="item_frame">
                 <section>
                   <div class="skill_title">CSS</div>
                   <div class="progress-wrap1 progress" data-progress-percent1="95" style="background-color:#16a085;">
                     95 %<div class="progress-bar1 progress"></div>
-
                   </div>
-                  
-                  
                 </section>
               </div>
-              </div>
+            </div>
                           
-                          <div class="col-md-6 text wow animated fadeInUp">
+            <div class="col-md-6 text wow animated fadeInUp">
               <div class="item_frame">
                 <section>
                   <div class="skill_title">Javascript</div>
@@ -52,9 +43,9 @@
                   
                 </section>
               </div>
-              </div>
+            </div>
 
-              <div class="col-md-6 text wow animated fadeInDown">
+            <div class="col-md-6 text wow animated fadeInDown">
               <div class="item_frame">
                 <section>
                   <div class="skill_title">JQuery</div>
@@ -66,9 +57,9 @@
                   
                 </section>
               </div>
-              </div>
+            </div>
 
-              <div class="col-md-6 text wow animated fadeInUp">
+            <div class="col-md-6 text wow animated fadeInUp">
               <div class="item_frame">
                 <section>
                   <div class="skill_title">HTML</div>
@@ -80,9 +71,9 @@
                   
                 </section>
               </div>
-              </div>
+            </div>
 
-              <div class="col-md-6 text wow animated fadeInDown">
+            <div class="col-md-6 text wow animated fadeInDown">
               <div class="item_frame">
                 <section>
                   <div class="skill_title">Graphic Design</div>
@@ -94,30 +85,41 @@
                   
                 </section>
               </div>
-              </div>
+            </div>
                           
-                         <div class="col-md-6 text wow animated fadeInUp">
+            <div class="col-md-6 text wow animated fadeInUp">
               <div class="item_frame">
                 <section>
                   <div class="skill_title">PHP</div>
                   <div class="progress-wrap5 progress" data-progress-percent5="75" style="background-color:#16a085;">
                     75 %<div class="progress-bar5 progress"></div>
-
-                  </div>
-
-                  
+                  </div>   
                 </section>
               </div>
-              </div>
-                  
-            </div> 
-
-
-              </div>
-            
             </div>
-            
-          </div>
+                  
+          </div> 
+        </div>
+      </div>
+
+      <div class="fan-frame">
+        <div class="centerFan">
+          <div class="item1"></div>
+          <div class="item2"></div>
+          <div class="item3"></div><!-- 
+          <div class="item4"></div> -->
+        </div>
+        <div class="fan-top"></div>
+
+      </div>
+
     </div>
-    </section><!-- /.features -->
-    <!-- about section END -->
+
+
+
+  </div>
+</section><!-- /.features -->
+
+
+
+<!-- about section END -->

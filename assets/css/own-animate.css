@@ -481,14 +481,150 @@
     100% {left: 1300px; top:0px; }
 }
 
+/*--------------------------------fan-----------------------------------*/
 
-@media (max-width: 1200px){
+.fan-frame{
+	width: 100%;
+  max-width: 1366px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.fan-top{
+	top: 120px;
+	left: 980px;
+	width: 150px;
+	height: 150px;
+	background: url("../images/fan-top.png");
+	position: relative;
+}
+
+.centerFan{
+  width:30px;
+  height:30px;
+  position: relative;
+  left:1042px;
+  top:210px;
+  border-radius:100%;
+  background:rgba(255,255,255,.7);
+  -webkit-animation:rotateAnimation 5s infinite;
+  -moz-animation:rotateAnimation 5s infinite;
+  -o-animation:rotateAnimation 5s infinite;
+  -ms-animation:rotateAnimation 5s infinite;
+  animation:rotateAnimation 5s infinite;
+  animation-timing-function: linear;
+}
+.item1,.item2, .item3{
+  width:30px;
+  height:50px;
+  background: #568ED3;
+  position:relative;
+  border-radius:10px; 
+  -webkit-box-shadow:1px 1px 20px rgba(255,255,255,.4);
+  -moz-box-shadow:1px 1px 20px rgba(255,255,255,.4);
+  -ms-box-shadow:1px 1px 20px rgba(255,255,255,.4);
+  -o-box-shadow:1px 1px 20px rgba(255,255,255,.4);
+  box-shadow:1px 1px 20px rgba(255,255,255,.4);
+}
+.item1{
+  top:-50px;
+  left: 2px;
+}
+.item2{
+  top:-38px;
+  left: 35px;
+  transform: rotate(120deg);
+}
+.item3{
+  top:-88px;
+  left: -35px;
+  transform: rotate(240deg);
+}
+
+
+@-webkit-keyframes rotateAnimation{
+ 50%{
+    transform-origin: center;
+   transform: rotate(3turn);
+ }
+  100%{
+    transform-origin: center;
+   transform: rotate(5turn);
+
+  } 
+}
+@-moz-keyframes rotateAnimation{
+ 50%{
+    transform-origin: center;
+   transform: rotate(3turn);
+ }
+  100%{
+    transform-origin: center;
+   transform: rotate(5turn);
+
+  } 
+}
+@-ms-keyframes rotateAnimation{
+ 50%{
+    transform-origin: center;
+   transform: rotate(3turn);
+ }
+  100%{
+    transform-origin: center;
+   transform: rotate(5turn);
+
+  } 
+}
+@-o-keyframes rotateAnimation{
+ 50%{
+    transform-origin: center;
+   transform: rotate(3turn);
+ }
+  100%{
+    transform-origin: center;
+   transform: rotate(5turn);
+
+  } 
+}
+@keyframes rotateAnimation{
+ 0%{
+    transform-origin: center;
+   transform: rotate(3turn);
+ }
+  100%{
+    transform-origin: center;
+   transform: rotate(10turn);
+
+  } 
+}
+
+
+
+
+@media (max-width: 1199px){
+
+	body{
+		overflow-x: hidden;
+	}
+
 	.galon{
 		left: 900px;
+	}
+
+	.fan-top{
+		left: 880px;
+		top: 120px;
+	}
+
+	.centerFan{
+		left:942px;
 	}
 }
 
 @media (max-width: 991px){
+	.fan-top{
+		display: none;
+	}
 	.galon{
 		display: none;
 	}
