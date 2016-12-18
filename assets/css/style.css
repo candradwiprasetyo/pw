@@ -1484,6 +1484,7 @@ a:hover {
   width: 40px;
   height: 32px; 
   -webkit-animation: clouds 40s infinite;
+  animation: clouds 40s infinite;
   margin-left: 0;
   display: block;
   position: absolute;
@@ -1507,12 +1508,12 @@ a:hover {
 }
 
 .cloud:nth-child(1){ top: auto; top: 100px; opacity: 0.85; 
--webkit-animation: clouds 20s infinite; 
-animation: clouds 20s infinite; 
+  -webkit-animation: clouds 20s infinite; 
+  animation: clouds 20s infinite;
 }
 .cloud:nth-child(2){ right: auto; left: 800px; top:100px; opacity: 0.75;
--webkit-animation: clouds 40s infinite; 
-animation: clouds 40s infinite;
+  -webkit-animation: clouds 40s infinite; 
+  animation: clouds 40s infinite;
 }
 .cloud:nth-child(3){ bottom: auto; top: 0px; right: auto; left: 1300px; top:150px; opacity: 0.5;
 -webkit-animation: clouds2 60s infinite;
@@ -1524,35 +1525,35 @@ animation: clouds 80s infinite;
 }
 
 @-webkit-keyframes clouds /*Safari and Chrome*/ {
-0 {margin-left:0;}
-25% {margin-left:200px;}
-50% {margin-left:0;}
-75% {margin-left:60px;}  
-100% {margin-left: 0;}
+  0 {margin-left:0;}
+  25% {margin-left:200px;}
+  50% {margin-left:0;}
+  75% {margin-left:60px;}  
+  100% {margin-left: 0;}
 }
 
 @-webkit-keyframes clouds2 /*Safari and Chrome*/ {
-0 {margin-left:0;}
-25% {margin-left:-200px;}
-50% {margin-left:0;}
-75% {margin-left:-60px;}  
-100% {margin-left: 0;}
+  0 {margin-left:0;}
+  25% {margin-left:-200px;}
+  50% {margin-left:0;}
+  75% {margin-left:-60px;}  
+  100% {margin-left: 0;}
 }
 
 @keyframes clouds /*firefox*/ {
-0 {margin-left:0;}
-25% {margin-left:200px;}
-50% {margin-left:0;}
-75% {margin-left:60px;}  
-100% {margin-left: 0;}
+  0 {margin-left:0;}
+  25% {margin-left:200px;}
+  50% {margin-left:0;}
+  75% {margin-left:60px;}  
+  100% {margin-left: 0;}
 }
 
 @keyframes clouds2 /*firefox*/ {
-0 {margin-left:0;}
-25% {margin-left:-200px;}
-50% {margin-left:0;}
-75% {margin-left:-60px;}  
-100% {margin-left: 0;}
+  0 {margin-left:0;}
+  25% {margin-left:-200px;}
+  50% {margin-left:0;}
+  75% {margin-left:-60px;}  
+  100% {margin-left: 0;}
 }
 
 .logo_new{

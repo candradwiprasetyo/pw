@@ -1,9 +1,24 @@
-   <div class="cloud-container">
+  <div class="cloud-container">
     <div class="cloud"></div>
     <div class="cloud"></div>
     <div class="cloud"></div>
     <div class="cloud"></div>
   </div>
+
+<div class="plane-frame">
+  <div class="plane"></div>
+  <div class="smoke">
+      <div class="fuego"></div>
+      <div class="fuego"></div>
+      <div class="fuego"></div>
+      <div class="fuego"></div>
+      <div class="fuego"></div>
+  </div>
+</div>
+
+<div class="air-balloon-frame">
+  <div class="air-balloon"></div>
+</div>
 
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">

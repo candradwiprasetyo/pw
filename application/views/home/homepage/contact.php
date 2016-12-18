@@ -36,7 +36,7 @@
             <div class="title text-center wow animated fadeInUp"><h1 style="margin-top:0px;">The Direct  <strong>Way</strong></h1></div> 
             <div class="description wow animated fadeInUp" style="margin-bottom:-20px;">
           <p>
-           Candra D Prasetyo <br/>
+           Candra Dwi Prasetyo <br/>
 <!-- Gayungsari Timur X No 1 <br/> -->
 Surabaya, East Java, Indonesia <br/>
 (0858) 5777 7414 <br/>

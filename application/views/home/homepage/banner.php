@@ -83,9 +83,15 @@
 
             <div class="tooltip tooltip-west">
               <span class="tooltip-item"></span>
-              <span class="tooltip-content"><div class="face_inhouse"></div>
+              <span class="tooltip-content">
+                  <div class="welcome-eyes-left"></div>
+                  <div class="welcome-eyes-right"></div>
+                  <div class="welcome-mouth"></div>
+                  <div class="welcome-eyebrow-left"></div>
+                  <div class="welcome-eyebrow-right"></div>
+                <div class="face_inhouse"></div>
 
-                Welcome to my house :) <br> <button id="click" class="button_inhouse">Enter My House</button></span>
+                Welcome to my house :) <br> <button id="click" class="button_inhouse">Come In</button></span>
               
             </div>
             <!--
