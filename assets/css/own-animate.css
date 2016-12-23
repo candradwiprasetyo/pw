@@ -810,7 +810,6 @@ body{
     -webkit-transform: rotateY(30deg); /* Safari */
     transform: rotateY(30deg);
   }
-
 }
 
 
@@ -832,12 +831,12 @@ body{
 	}
 
 	.fan-top{
-		left: 880px;
+		margin-left: -100px;
 		top: 120px;
 	}
 
 	.centerFan{
-		left:942px;
+		margin-left:-100px;
 	}
 
   .buttons{
@@ -847,6 +846,12 @@ body{
 
 @media (max-width: 991px){
   .plane{
+    display: none;
+  }
+  .smoke{
+    display: none;
+  }
+  .fuego{
     display: none;
   }
   .air-balloon{
