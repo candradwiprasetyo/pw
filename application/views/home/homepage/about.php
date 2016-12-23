@@ -62,6 +62,18 @@
             </div>
             </div>
 
+
+            <div class="parlour-body">
+              <div class="parlour-hand"></div>
+              <div class="parlour-dress"></div>
+              <div class="parlour-eyes-left"></div>
+              <div class="parlour-eyes-right"></div>
+              <div class="parlour-mouth"></div>
+              <div class="parlour-eyebrow-left"></div>
+              <div class="parlour-eyebrow-right"></div>
+            </div>
+
+
             <?php
               include 'galon.php';
             ?>

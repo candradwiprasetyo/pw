@@ -228,7 +228,7 @@ body{
 .galon{
 	width: 98px;
 	height: 100px;
-	margin-top: 300px;
+	margin-top: 140px;
 	position: relative;
 	left: 1000px;
 }
@@ -485,6 +485,147 @@ body{
     100% {left: 1300px; top:0px; }
 }
 
+/*----------------------------parlour-face------------------------------*/
+
+.parlour-body{
+  top: 273px;
+  left: 515px;
+  width: 125px;
+  height: 156px;
+  background: url("../images/parlour-face.png");
+  position: relative;
+}
+
+.parlour-dress{
+  top: 78px;
+  left: 0px;
+  width: 22px;
+  height: 35px;
+  background: url("../images/parlour-dress.png");
+  position: absolute;
+}
+
+
+.parlour-hand{
+  top: 24px;
+  left: -50px;
+  width: 65px;
+  height: 86px;
+  background: url("../images/parlour-hand.png");
+  position: absolute;
+  animation-name: handshake;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.parlour-eyes-left{
+  border-radius:50%; width:5px; height: 8px; background: #333;
+  position: absolute;
+  margin-top: -32px;
+  left: 43px;
+  animation-name: welcome-eyes-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.parlour-eyes-right{
+  border-radius:50%; width:5px; height: 8px; background: #333;
+  position: absolute;
+  margin-top: -32px;
+  left: 68px;
+  animation-name: welcome-eyes-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.parlour-mouth{
+  position: absolute;
+  margin-top: 60px;
+  left: 48px;
+  background-color: #fff;
+  width: 20px;
+  height: 5px;
+  border-radius:  0  0 50% 50% /  0px 0px 100% 100%;
+  animation-name: welcome-mouth;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.parlour-eyebrow-left{
+  position: absolute;
+  margin-top: -30px;
+  left: 40px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -ms-box-shadow: 2px 2px 0 0 #333;
+  -o-box-shadow: 2px 2px 0 0 #333;
+  -webkit-box-shadow: 2px 2px 0 0 #333;
+  box-shadow: 2px 2px 0 0 #333;
+  -ms-transform: rotate(220deg);
+  /* IE 9 */
+  -webkit-transform: rotate(220deg);
+  transform: rotate(220deg);
+  animation-name: welcome-eyebrow;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.parlour-eyebrow-right{
+  position: absolute;
+  margin-top: -30px;
+  left: 66px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -ms-box-shadow: 2px 2px 0 0 #333;
+  -o-box-shadow: 2px 2px 0 0 #333;
+  -webkit-box-shadow: 2px 2px 0 0 #333;
+  box-shadow: 2px 2px 0 0 #333;
+  -ms-transform: rotate(220deg);
+  /* IE 9 */
+  -webkit-transform: rotate(220deg);
+  transform: rotate(220deg);
+  animation-name: welcome-eyebrow;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@-moz-keyframes handshake{
+  0% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -moz-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+    top: 40px;
+    left: -60px;
+  }
+  100% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes handshake{
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -moz-transform: rotate(-40deg);
+    transform: rotate(-35deg);
+    top: 39px;
+    left: -60px;
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+
 /*--------------------------------fan-----------------------------------*/
 
 .fan-frame{
@@ -612,6 +753,10 @@ body{
 		overflow-x: hidden;
 	}
 
+  .parlour-body{
+    left: 415px;
+  }
+
 	.galon{
 		left: 900px;
 	}
@@ -624,9 +769,16 @@ body{
 	.centerFan{
 		left:942px;
 	}
+
+  .buttons{
+    margin-top: -30px;
+  }
 }
 
 @media (max-width: 991px){
+  .parlour-body{
+    display: none;
+  }
 	.fan-top{
 		display: none;
 	}
@@ -648,4 +800,7 @@ body{
 	.car2{
 		display: none;
 	}
+  .buttons{
+    margin-top: 0px;
+  }
 }
