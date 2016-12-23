@@ -70,11 +70,11 @@
         
         <div class="container">
 
-          <?php
-            include 'car.php';
-          ?>
-        
-
+          <div class="car-frame">
+            <div class="car"></div>
+            <div class="car2"></div>
+            <div style="clear:both"></div>
+          </div>
           <!--<div class="home_img">
 
           </div>
