@@ -522,7 +522,7 @@ body{
   border-radius:50%; width:5px; height: 8px; background: #333;
   position: absolute;
   margin-top: -32px;
-  left: 43px;
+  left: 44px;
   animation-name: welcome-eyes-animation;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -532,7 +532,7 @@ body{
   border-radius:50%; width:5px; height: 8px; background: #333;
   position: absolute;
   margin-top: -32px;
-  left: 68px;
+  left: 67px;
   animation-name: welcome-eyes-animation;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -553,7 +553,7 @@ body{
 
 .parlour-eyebrow-left{
   position: absolute;
-  margin-top: -30px;
+  margin-top: -32px;
   left: 40px;
   width: 10px;
   height: 10px;
@@ -573,7 +573,7 @@ body{
 
 .parlour-eyebrow-right{
   position: absolute;
-  margin-top: -30px;
+  margin-top: -32px;
   left: 66px;
   width: 10px;
   height: 10px;
@@ -593,17 +593,17 @@ body{
 
 @-moz-keyframes handshake{
   0% {
-    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-  }
+  } 
   50% {
     -moz-transform: rotate(-40deg);
-    transform: rotate(-40deg);
-    top: 40px;
+    transform: rotate(-35deg);
+    top: 39px;
     left: -60px;
   }
   100% {
-    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 }
@@ -612,7 +612,7 @@ body{
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-  }
+  } 
   50% {
     -moz-transform: rotate(-40deg);
     transform: rotate(-35deg);
@@ -637,11 +637,15 @@ body{
 }
 .fan-top{
 	top: 120px;
-	left: 980px;
+	left: 970px;
 	width: 150px;
 	height: 150px;
 	background: url("../images/fan-top.png");
 	position: relative;
+  animation:fan-top 8s infinite;
+  -webkit-transform: rotateY(30deg); /* Safari */
+  transform: rotateY(30deg);
+  animation-timing-function: linear;
 }
 
 .centerFan{
@@ -652,11 +656,11 @@ body{
   top:210px;
   border-radius:100%;
   background:rgba(255,255,255,.7);
-  -webkit-animation:rotateAnimation 5s infinite;
-  -moz-animation:rotateAnimation 5s infinite;
-  -o-animation:rotateAnimation 5s infinite;
-  -ms-animation:rotateAnimation 5s infinite;
-  animation:rotateAnimation 5s infinite;
+  -webkit-animation:rotateAnimation 8s infinite;
+  -moz-animation:rotateAnimation 8s infinite;
+  -o-animation:rotateAnimation 8s infinite;
+  -ms-animation:rotateAnimation 8s infinite;
+  animation:rotateAnimation 8s infinite;
   animation-timing-function: linear;
 }
 .item1,.item2, .item3{
@@ -733,14 +737,66 @@ body{
 }
 @keyframes rotateAnimation{
  0%{
+    left:1032px;
+    transform: rotateY(30deg) rotate(7turn);
     transform-origin: center;
-   transform: rotate(3turn);
  }
-  100%{
+ 25%{
+    left:1042px;
+    transform: rotateY(0deg) rotate(10turn);
     transform-origin: center;
-   transform: rotate(10turn);
+ }
+
+  50%{
+    left: 1052px;
+    transform: rotateY(30deg) rotate(13turn); /* Safari */
+    transform-origin: center;
+  } 
+
+  75%{
+    left: 1042px;
+    transform: rotateY(0deg) rotate(16turn);
+    transform-origin: center;
+  }
+  100%{
+    left: 1032px;
+    transform-origin: center;
+    transform: rotateY(30deg) rotate(19turn);
 
   } 
+}
+
+@keyframes fan-top{
+ 0%{
+    left: 970px;
+    -webkit-transform: rotateY(30deg); /* Safari */
+    transform: rotateY(30deg);
+ }
+
+ 25%{
+    left: 980px;
+    -webkit-transform: rotateY(0deg); /* Safari */
+    transform: rotateY(0deg);
+ }
+
+  50%{
+    left: 990px;
+    -webkit-transform: rotateY(-30deg); /* Safari */
+    transform: rotateY(-30deg);
+  } 
+
+  75%{
+    left: 980px;
+    -webkit-transform: rotateY(0deg); /* Safari */
+    transform: rotateY(0deg);
+  }
+
+  100%{
+    left: 970px;
+    -webkit-transform: rotateY(30deg); /* Safari */
+    transform: rotateY(30deg);
+  }
+
 }
 
 
