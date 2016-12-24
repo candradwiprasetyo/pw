@@ -3,6 +3,15 @@
     <section class="contact" id="contact">
        <div class="background_contact">
       <div class="container"> 
+
+        <div class="shower-frame">
+          <div class="water drop1"></div>
+          <div class="water drop2"></div>
+          <div class="water drop3"></div>
+          <div class="shower"></div>
+          
+        </div>
+
         <div class="title text-center wow animated fadeInDown"><h1>Contact <strong>ME</strong></h1></div> 
         <div class="description wow animated fadeInUp">
           <p>

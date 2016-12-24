@@ -970,6 +970,57 @@ body{
 }
 
 
+/*-----------------------------------shower-----------------------------------*/
+.shower-frame{
+  width: 47px;
+  height: 360px;
+  top: 206px;
+  margin-left: 72px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.shower{
+  background: url("../images/shower.png") no-repeat;
+  position: absolute;
+  width: 47px;
+  height: 26px;
+}
+.water{
+  margin-top: 5px;
+  width: 5px;
+  height: 8px;
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+  opacity: 0.5;
+  animation-timing-function: linear;
+}
+
+.drop1{
+  margin-left: 5px;
+  animation: water 1.5s 0s infinite;
+}
+
+.drop2{
+  margin-left: 10px;
+  animation: water 1.5s 1s infinite;
+}
+
+.drop3{
+  margin-left: 15px;
+  animation: water 1.5s 2s infinite;
+}
+
+@keyframes water{
+  0%{
+    margin-top:10px;
+  }
+
+  100%{
+    margin-top:400px;
+  }
+}
 
 
 
@@ -1013,6 +1064,10 @@ body{
   }
   .pan{
     margin-left: -140px;
+  }
+
+  .shower-frame{
+    margin-left: -30px;
   }
 }
 
@@ -1068,6 +1123,10 @@ body{
     display: none;
   }
   .pan{
+    display: none;
+  }
+
+  .shower-frame{
     display: none;
   }
 }
