@@ -62,6 +62,10 @@
             </div>
             </div>
 
+            <div class="tale-frame">
+              <div class="tale"></div>
+            </div>
+
 
             <div class="parlour-body">
               <div class="parlour-hand"></div>

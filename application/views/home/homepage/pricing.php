@@ -17,6 +17,53 @@
 
       <div class="container">
 
+      <div class="pan_smoke"><?php include 'pan_smoke.php' ;?></div>
+      <div class="pan"></div>
+      <div class="stove-frame">
+        <div class="stove1">
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+        </div>
+        <div class="stove2">
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+        </div>
+        <div class="stove3">
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+        </div>
+        <div class="stove4">
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+        </div>
+        <div class="stove5">
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+        </div>
+        <div class="stove6">
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+          <div class="stove-fire"></div>
+        </div>
+      </div>
+
         <br>
         <div class="title text-center wow animated fadeInDown"><h1>Pricing <strong>Table</strong></h1></div>
         

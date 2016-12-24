@@ -819,6 +819,7 @@ a:hover {
   padding: 0px 0px;
   width: 100%;
   z-index: 1;
+  /*background:url(../images/bg-noise.png) #f5f2c7;*/
   background:url(../images/bg-noise.png) #f5f2c7;
   position: relative;
 }

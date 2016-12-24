@@ -242,7 +242,7 @@ body{
 .galon{
 	width: 98px;
 	height: 100px;
-	margin-top: 140px;
+	margin-top: 107px;
 	position: relative;
 	left: 1000px;
 }
@@ -499,10 +499,43 @@ body{
     100% {left: 1300px; top:0px; }
 }
 
+/*-----------------------------tale of cat----------------------------------*/
+
+.tale-frame{
+  width: 16px;
+  height: 39px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  margin-left: 0px;
+}
+.tale{
+  top: 258px;
+  left: 230px;
+  width: 16px;
+  height: 39px;
+  background: url("../images/tale.png");
+  position: absolute;
+  transform: rotate(-15deg);
+  animation-name: tale;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes tale {
+    0%   {transform: rotate(-15deg); }
+    25%   {transform: rotate(0deg); }
+    50% { margin-left:-8px; transform: rotate(20deg); }
+    75%   {transform: rotate(0deg); }
+    100% {transform: rotate(-15deg); }
+}
+
+
 /*----------------------------parlour-face------------------------------*/
 
 .parlour-body{
-  top: 273px;
+  top: 234px;
   left: 515px;
   width: 125px;
   height: 156px;
@@ -812,6 +845,130 @@ body{
   }
 }
 
+/*-----------------------------------pan-----------------------------------*/
+.pan_smoke{
+  top: 240px;
+  margin-left: -40px;
+  position: absolute;
+}
+.pan{
+  width: 76px;
+  height: 18px;
+  position: absolute;
+  background: url("../images/pan.png");
+  margin-top:275px;
+  margin-left: -40px;
+  animation: pan 0.2s 0s infinite;
+}
+
+@keyframes pan{
+  0%{
+    -webkit-transform: rotate(10deg); /* Safari */
+    transform: rotate(10deg);
+  }
+
+  50%{
+    -webkit-transform: rotate(-10deg); /* Safari */
+    transform: rotate(-10deg);
+  }
+
+  100%{
+    -webkit-transform: rotate(10deg); /* Safari */
+    transform: rotate(10deg);
+  }
+}
+
+/*----------------------------------stove----------------------------------*/
+.stove-frame{
+  width: 300px;
+  position: relative;
+  left: -16px;
+  top: 352px;
+  height: 10px;
+}
+.stove1 {
+  border-radius: 10px;
+  position: absolute;
+  width: 5px;
+  height: 10px;
+}
+.stove2 {
+  border-radius: 10px;
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  margin-left: 8px;
+}
+.stove3 {
+  border-radius: 10px;
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  margin-left: 16px;
+}
+
+.stove4 {
+  border-radius: 10px;
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  margin-left: 172px;
+}
+.stove5 {
+  border-radius: 10px;
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  margin-left: 180px;
+}
+.stove6 {
+  border-radius: 10px;
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  margin-left: 188px;
+}
+
+.stove-fire {
+  border-radius: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.6px;
+  width: 6.66666667px;
+  height: 10px;
+}
+.stove-fire:nth-child(1) {
+  animation: stove-fire 2s 0s infinite;
+}
+.stove-fire:nth-child(2) {
+  animation: stove-fire 1.5s 0s infinite;
+}
+.stove-fire:nth-child(3) {
+  animation: stove-fire 1s 0s infinite;
+}
+.stove-fire:nth-child(4) {
+  animation: stove-fire 0.5s 0s infinite;
+}
+.stove-fire:nth-child(5) {
+  animation: stove-fire 0.2s 0s infinite;
+}
+
+/* ============================================== Animation Fire
+*/
+
+@keyframes stove-fire {
+  0%, 100% {
+    background: rgba(254, 248, 97, 0.5);
+    box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    background: rgba(255, 50, 0, 0.1);
+    box-shadow: 0 0 40px 20px rgba(248, 233, 209, 0.2);
+    transform: translateY(-20px) scale(0);
+  }
+}
+
 
 
 
@@ -824,6 +981,10 @@ body{
 
   .parlour-body{
     left: 415px;
+  }
+
+  .tale{
+    left: 130px;
   }
 
 	.galon{
@@ -842,6 +1003,17 @@ body{
   .buttons{
     margin-top: -30px;
   }
+
+  .stove-frame{
+    left: -116px;
+  }
+
+  .pan_smoke{
+    margin-left: -150px;
+  }
+  .pan{
+    margin-left: -140px;
+  }
 }
 
 @media (max-width: 991px){
@@ -858,6 +1030,9 @@ body{
     display: none;
   }
   .parlour-body{
+    display: none;
+  }
+  .tale{
     display: none;
   }
 	.fan-top{
@@ -883,5 +1058,16 @@ body{
 	}
   .buttons{
     margin-top: 0px;
+  }
+
+  .stove-frame{
+    display: none;
+  }
+
+  .pan_smoke{
+    display: none;
+  }
+  .pan{
+    display: none;
   }
 }
